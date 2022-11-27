@@ -1,0 +1,193 @@
+/* Medias Query */
+
+/* Media Query for Mobile Phone */
+@media (min-width:321px) and (max-width:768px){
+
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li a{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li a:hover {
+        background-color: var(--quaternary-color);
+        color: var(--secondary-color);
+        opacity: 0.9;
+        padding: 5px;
+        transition: 0.3s;
+    } 
+
+    /* aside */
+    aside i {
+        scale: 1;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .hero h2{
+        text-align: center;
+    }
+
+    .hero p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /* Section Projects */
+    #projects h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .works-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .work{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work img{
+        border-radius: 10px;
+        background-color: lightgray;
+    }
+
+    .work h3{
+        font-size: 1.5em;
+        font-weight: 700;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    /* Section Services */
+    #services h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .services-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service h3{
+        font-size: 1em;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .service p{
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    /* Section Testimonies */
+    #testimonies h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .testimonies-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimony{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+        border: 1px solid var(--primary-color);
+        box-shadow: 4px 5px 10px var(--primary-color);
+        border-radius: 10px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .testimony img{
+        border-radius: 10px;
+        background-color: lightgray;
+    }
+
+    .testimony h3{
+        font-size: 1em;
+        font-weight: 700;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .testimony p{
+        font-size: 0.8em;
+        font-weight: 500;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    
+    /* Form Contact */
+    section form{
+        margin-bottom: 5%;
+    }
+
+    legend{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        margin: 0 auto;
+    }
+}
